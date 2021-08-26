@@ -864,6 +864,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #32336F; }
   .tBox_i {
-    border-top: 0; }
+    border: 0; }
   .tBox_i:hover {
-    border-top: 0; }
+    border: 0; }
