@@ -1,0 +1,14 @@
+.tBox{
+    min-height: 400px;
+    text-align: center;
+    color: $primary;
+
+    &_i{
+        border-top: 0;
+    };
+
+    &_i:hover{
+        border-top: 0;
+    }
+}
+
