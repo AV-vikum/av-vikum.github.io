@@ -36,35 +36,62 @@
   $.Scrollax();
 	
 
-	var carousel = function(items, classOfIt, bool) {
-		$('.'+ classOfIt).owlCarousel({
+	var carousel = function() {
+		$('.'+ "carousel-testimony").owlCarousel({
 			
 			autoplay: true,
 			autoHeight: true,
 			center: true,
 			loop: true,
-			items:items,
+			items:1,
 			margin: 30,
 			stagePadding: 0,
 			nav: false,
-			dots: bool,
+			dots: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: items
+					items: 1
 				},
 				600:{
-					items: items
+					items: 1
 				},
 				1000:{
-					items: items
+					items: 1
 				}
 			}
 		});
 
 	};
-	carousel(1, "carousel-testimony",true);
-	carousel(3, "client-icons", false);
+
+	$('.client-icons').owlCarousel(
+		{
+			
+			autoplay: true,
+			autoHeight: true,
+			center: true,
+			loop: true,
+			items:1,
+			margin: 30,
+			stagePadding: 0,
+			nav: false,
+			dots: false,
+			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			responsive:{
+				0:{
+					items: 1
+				},
+				600:{
+					items: 3
+				},
+				1000:{
+					items: 5
+				}
+			}
+		}
+	)
+
+	
 
 
 	$('.owl-product').owlCarousel({
