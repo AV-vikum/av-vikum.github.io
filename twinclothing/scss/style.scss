@@ -2665,14 +2665,13 @@ textarea.form-control {
 
 .product-banner {
   padding-top: 0;
-  padding-bottom: 80px;
+  // padding-bottom: 80px;
 }
 
 @include media-breakpoint-up(md) {
   .product-banner {
     padding-right: 65px;
     padding-left: 65px;
-    padding-bottom: 180px;
   }
 }
 
@@ -2692,7 +2691,7 @@ textarea.form-control {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../images/products/large-product-4.png);
+      url(../images/sample/nevy-blue-1.jpg);
   }
 
   &-2 {
@@ -2701,7 +2700,7 @@ textarea.form-control {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../images/products/large-product-3.png);
+      url(../images/sample/navy-blue-2.jpg);
   }
 
   &-3 {
@@ -2710,7 +2709,7 @@ textarea.form-control {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)
       ),
-      url(../images/products/large-product-2.png);
+      url(../images/sample/navy-blue-3.jpg);
   }
 }
 

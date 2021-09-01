@@ -10461,14 +10461,12 @@ textarea.form-control {
     margin-top: 0; } }
 
 .product-banner {
-  padding-top: 0;
-  padding-bottom: 80px; }
+  padding-top: 0; }
 
 @media (min-width: 768px) {
   .product-banner {
     padding-right: 65px;
-    padding-left: 65px;
-    padding-bottom: 180px; } }
+    padding-left: 65px; } }
 
 .product-large {
   height: 620px;
@@ -10479,20 +10477,20 @@ textarea.form-control {
   background-size: cover;
   background-position: center; }
   .product-large-1 {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/products/large-product-4.png);
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-4.png);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-4.png);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-4.png); }
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/sample/nevy-blue-1.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/nevy-blue-1.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/nevy-blue-1.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/nevy-blue-1.jpg); }
   .product-large-2 {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/products/large-product-3.png);
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-3.png);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-3.png);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-3.png); }
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/sample/navy-blue-2.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-2.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-2.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-2.jpg); }
   .product-large-3 {
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/products/large-product-2.png);
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-2.png);
-    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-2.png);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/products/large-product-2.png); }
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/sample/navy-blue-3.jpg);
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-3.jpg);
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-3.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/sample/navy-blue-3.jpg); }
 
 .product-large h2 {
   color: #ffffff;
