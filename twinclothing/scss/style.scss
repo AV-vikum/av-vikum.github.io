@@ -1680,6 +1680,61 @@ textarea.form-control {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
+    &-1 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-1.jpg);
+    }
+
+    &-2 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-2.jpg);
+    }
+
+    &-3 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-3.jpg);
+    }
+
+    &-4 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-4.jpg);
+    }
+
+    &-5 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-5.jpg);
+    }
+
+    &-6 {
+      background-image: linear-gradient(
+          0deg,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(/images/team-6.jpg);
+    }
+
     &:before {
       content: "";
       position: absolute;

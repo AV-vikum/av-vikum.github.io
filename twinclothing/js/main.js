@@ -60,6 +60,8 @@
     });
   };
 
+  carousel();
+
   $(".client-icons").owlCarousel({
     autoplay: true,
     autoHeight: true,
