@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akila Vikum Wickramasinghe</title>
-  <meta name="description" content="Portfolio of Akila Vikum Wickramasinghe — web developer and designer from Sri Lanka, building fast, thoughtful digital experiences.">
+  <meta name="description" content="Portfolio of Akila Vikum Wickramasinghe — full-stack developer from Sri Lanka building web apps, mobile apps and business systems.">
   <meta name="theme-color" content="#f2eee6">
   <meta property="og:title" content="Akila Vikum Wickramasinghe — Portfolio">
-  <meta property="og:description" content="Web developer and designer from Sri Lanka.">
+  <meta property="og:description" content="Full-stack developer from Sri Lanka.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://av-vikum.github.io/">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23111'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23ff4d1a'%3Eav%3C/text%3E%3C/svg%3E">
@@ -79,8 +79,8 @@
 
       <div class="hero-bottom">
         <p class="hero-lead reveal">
-          A <span class="rotator" aria-live="polite"><span class="rotator-word">web developer</span></span>
-          crafting bold, fast and thoughtful digital experiences — from pixel to production.
+          A <span class="rotator" aria-live="polite"><span class="rotator-word">full-stack developer</span></span>
+          building web apps, mobile apps and business systems — from pixel to production.
         </p>
         <a href="#work" class="round-cta reveal" data-cursor="Scroll">
           <svg viewBox="0 0 200 200" class="round-text" aria-hidden="true">
@@ -98,8 +98,8 @@
     <!-- MARQUEE -->
     <div class="marquee" aria-hidden="true">
       <div class="marquee-track">
-        <span>HTML</span><i>✦</i><span>CSS / SCSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>React</span><i>✦</i><span>UI Design</span><i>✦</i><span>Responsive</span><i>✦</i><span>Git</span><i>✦</i><span>Performance</span><i>✦</i>
-        <span>HTML</span><i>✦</i><span>CSS / SCSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>React</span><i>✦</i><span>UI Design</span><i>✦</i><span>Responsive</span><i>✦</i><span>Git</span><i>✦</i><span>Performance</span><i>✦</i>
+        <span>React</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Flutter</span><i>✦</i><span>Node.js</span><i>✦</i><span>Firebase</span><i>✦</i><span>Supabase</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>MongoDB</span><i>✦</i><span>Tailwind</span><i>✦</i><span>Docker</span><i>✦</i>
+        <span>React</span><i>✦</i><span>TypeScript</span><i>✦</i><span>Flutter</span><i>✦</i><span>Node.js</span><i>✦</i><span>Firebase</span><i>✦</i><span>Supabase</span><i>✦</i><span>PostgreSQL</span><i>✦</i><span>MongoDB</span><i>✦</i><span>Tailwind</span><i>✦</i><span>Docker</span><i>✦</i>
       </div>
     </div>
 
@@ -117,18 +117,17 @@
         <div class="about-copy">
           <p class="big-text reveal">
             I'm Akila — a developer who cares about <em>how things feel</em>, not just how they work.
-            I turn ideas into clean, responsive websites that people actually enjoy using.
+            I build the systems businesses actually run on, and make them a pleasure to use.
           </p>
           <p class="reveal muted">
-            I work across the whole journey: understanding the brand, designing the interface, and
-            building it with solid, maintainable front-end code. Small businesses, startups and
-            personal brands — I like helping them look sharp online.
+            Point-of-sale for food businesses, learning platforms for tuition classes, QR event passes
+            sent over WhatsApp, attendance and payroll for construction sites. I work across the
+            whole stack: interface, API, database and mobile app, from first sketch to launch day.
           </p>
           <div class="stats">
-            <!-- Update these numbers to match your experience -->
             <div class="stat reveal"><span class="stat-num" data-count="5">5</span><span class="stat-plus">+</span><p>Years building for the web</p></div>
-            <div class="stat reveal"><span class="stat-num" data-count="20">20</span><span class="stat-plus">+</span><p>Projects shipped</p></div>
-            <div class="stat reveal"><span class="stat-num" data-count="100">100</span><span class="stat-plus">%</span><p>Responsive, every time</p></div>
+            <div class="stat reveal"><span class="stat-num" data-count="8">8</span><span class="stat-plus">+</span><p>Products shipped</p></div>
+            <div class="stat reveal"><span class="stat-num" data-count="3">3</span><span class="stat-plus">✦</span><p>Platforms: web, mobile &amp; API</p></div>
           </div>
         </div>
       </div>
@@ -141,43 +140,111 @@
         <h2 class="section-title reveal">Things I've <em>made</em></h2>
       </div>
 
-      <!-- Projects list: edit titles, tags, years, links and colours here -->
+      <!-- Projects: each row opens to show details. Set data-img to a screenshot path for a hover preview. -->
       <ul class="projects">
-        <li class="project reveal" data-color="#ff4d1a" data-img="" data-cursor="Open">
-          <a href="#" class="project-link">
+        <li class="project reveal" data-color="#ff4d1a" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
             <span class="project-index">01</span>
+            <span class="project-title">ChemStudio</span>
+            <span class="project-tags">EdTech · Web, mobile &amp; API</span>
+            <span class="project-year">2024–26</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>A complete learning platform for Sanath Wickramasinghe's A/L Chemistry classes: a student web app, a Flutter mobile app, an admin manager and a Node.js API. Students unlock paid video lessons month by month, upload payment proofs, and mark attendance with QR cards.</p>
+            <ul class="project-stack"><li>React</li><li>PrimeReact</li><li>Flutter</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>Cloudinary</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#3a5bff" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">02</span>
+            <span class="project-title">HL Event Manager</span>
+            <span class="project-tags">Events · Full-stack</span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>Guest passes at scale. Import a guest list, generate a personalised QR pass for each guest on a designed template, deliver it over WhatsApp, and check people in at the door by scanning. Image generation and rate-limited sending run as separate background workers.</p>
+            <ul class="project-stack"><li>React</li><li>TypeScript</li><li>Express</li><li>PostgreSQL</li><li>pg-boss</li><li>sharp</li><li>WhatsApp API</li><li>Docker</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#ffb13b" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">03</span>
+            <span class="project-title">BigDip POS</span>
+            <span class="project-tags">Food &amp; retail · Point of sale</span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>A point-of-sale and back-office system: fast checkout with modifiers, a customer-facing display, orders, inventory, loyalty and promotions, shifts, SMS, and finance reports.</p>
+            <ul class="project-stack"><li>React</li><li>TypeScript</li><li>Supabase</li><li>Tailwind</li><li>Radix UI</li><li>Recharts</li><li>Vercel</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#1fb57a" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">04</span>
+            <span class="project-title">EduFlex</span>
+            <span class="project-tags">Education · Mobile app</span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>A Flutter learning app with course content, embedded video lessons, and sign-in and data sync through Firebase.</p>
+            <ul class="project-stack"><li>Flutter</li><li>Dart</li><li>Firebase</li><li>Firestore</li><li>go_router</li><li>Provider</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#c24bff" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">05</span>
+            <span class="project-title">Leadflow Manager</span>
+            <span class="project-tags">Sales · Dashboard</span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>A mobile-first lead management dashboard. Leads are created and assigned in real time, admins watch the whole pipeline, and agents call or WhatsApp a lead with one tap.</p>
+            <ul class="project-stack"><li>React 19</li><li>Vite</li><li>Tailwind v4</li><li>Firebase</li><li>Google Sign-In</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#b5651d" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">06</span>
+            <span class="project-title">Mochiato System</span>
+            <span class="project-tags">Café · Operations</span>
+            <span class="project-year">2025–26</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>The management system for Mochiato café in Kiribathgoda. It has role-based access for five staff roles, AI scanning of purchase invoices, shift cash-variance tracking, customer management, and a mobile-optimised UI.</p>
+            <ul class="project-stack"><li>React</li><li>TypeScript</li><li>Firebase</li><li>Tailwind</li><li>DaisyUI</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#e0473a" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">07</span>
+            <span class="project-title">Luxo Construction</span>
+            <span class="project-tags">Construction · Workforce</span>
+            <span class="project-year">2025</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>Attendance and payroll for a construction company. It manages sites on a map, keeps employee records, tracks attendance per site, and calculates payroll with PDF and Excel exports.</p>
+            <ul class="project-stack"><li>React</li><li>TypeScript</li><li>Firebase</li><li>Zustand</li><li>Google Maps</li><li>shadcn/ui</li></ul>
+          </div></div>
+        </li>
+        <li class="project reveal" data-color="#6b7cff" data-img="">
+          <button class="project-link" type="button" aria-expanded="false" data-cursor="Details">
+            <span class="project-index">08</span>
             <span class="project-title">Twin Clothing</span>
             <span class="project-tags">Apparel manufacturer · Website</span>
-            <span class="project-year">2022</span>
-            <span class="project-arrow">↗</span>
-          </a>
-        </li>
-        <li class="project reveal" data-color="#3a5bff" data-img="" data-cursor="Open">
-          <a href="#" class="project-link">
-            <span class="project-index">02</span>
-            <span class="project-title">Project Two</span>
-            <span class="project-tags">Web app · UI/UX</span>
-            <span class="project-year">2024</span>
-            <span class="project-arrow">↗</span>
-          </a>
-        </li>
-        <li class="project reveal" data-color="#1fb57a" data-img="" data-cursor="Open">
-          <a href="#" class="project-link">
-            <span class="project-index">03</span>
-            <span class="project-title">Project Three</span>
-            <span class="project-tags">E-commerce · Front-end</span>
-            <span class="project-year">2025</span>
-            <span class="project-arrow">↗</span>
-          </a>
-        </li>
-        <li class="project reveal" data-color="#c24bff" data-img="" data-cursor="Open">
-          <a href="#" class="project-link">
-            <span class="project-index">04</span>
-            <span class="project-title">Project Four</span>
-            <span class="project-tags">Branding · Landing page</span>
-            <span class="project-year">2026</span>
-            <span class="project-arrow">↗</span>
-          </a>
+            <span class="project-year">2021</span>
+            <span class="project-arrow" aria-hidden="true">+</span>
+          </button>
+          <div class="project-body"><div class="project-body-inner">
+            <p>A multi-page website for an apparel manufacturer, covering its product ranges (t-shirts, caps, bags), services, blog and contact.</p>
+            <ul class="project-stack"><li>HTML</li><li>SCSS</li><li>Bootstrap</li><li>JavaScript</li></ul>
+          </div></div>
         </li>
       </ul>
 
@@ -194,23 +261,23 @@
         <article class="card reveal" data-tilt>
           <span class="card-num">/01</span>
           <div class="card-icon">◐</div>
-          <h3>Web Design</h3>
-          <p>Interfaces with personality — layouts, typography and colour that make your brand memorable.</p>
-          <ul><li>UI / UX</li><li>Wireframes</li><li>Design systems</li></ul>
+          <h3>Web Apps &amp; Dashboards</h3>
+          <p>Admin panels, POS screens and customer-facing sites that are fast, responsive and easy for staff to learn.</p>
+          <ul><li>React</li><li>TypeScript</li><li>Tailwind</li><li>UI / UX</li></ul>
         </article>
         <article class="card reveal" data-tilt>
           <span class="card-num">/02</span>
           <div class="card-icon">⌘</div>
-          <h3>Development</h3>
-          <p>Fast, accessible and responsive front-ends, hand-built with modern HTML, CSS and JavaScript.</p>
-          <ul><li>HTML / CSS / JS</li><li>React</li><li>Animations</li></ul>
+          <h3>Mobile Apps</h3>
+          <p>Cross-platform apps for Android and iOS from a single Flutter codebase, synced with the same backend as your web app.</p>
+          <ul><li>Flutter</li><li>Dart</li><li>Firebase</li></ul>
         </article>
         <article class="card reveal" data-tilt>
           <span class="card-num">/03</span>
           <div class="card-icon">✦</div>
-          <h3>Launch &amp; Care</h3>
-          <p>From domain and hosting to performance tuning and SEO basics — I help you go live and stay sharp.</p>
-          <ul><li>Hosting</li><li>SEO</li><li>Maintenance</li></ul>
+          <h3>Backends &amp; Integrations</h3>
+          <p>APIs, databases, auth and the integrations that connect them: WhatsApp messaging, QR codes, payments and background jobs.</p>
+          <ul><li>Node.js</li><li>PostgreSQL</li><li>Supabase</li><li>MongoDB</li><li>Docker</li></ul>
         </article>
       </div>
     </section>
@@ -221,19 +288,22 @@
         <div class="section-label reveal"><span>04</span> Journey</div>
         <h2 class="section-title reveal">The road <em>so far</em></h2>
       </div>
-      <!-- Update with your real roles and dates -->
       <ol class="timeline">
         <li class="reveal">
-          <span class="tl-year">Now</span>
-          <div><h3>Freelance Web Developer</h3><p>Designing and building websites for brands and small businesses.</p></div>
+          <span class="tl-year">2026</span>
+          <div><h3>Systems at scale</h3><p>Shipped HL Event Manager, BigDip POS, EduFlex and Leadflow Manager, with queues, workers, Docker and third-party APIs in production.</p></div>
         </li>
         <li class="reveal">
-          <span class="tl-year">2022</span>
-          <div><h3>Twin Clothing website</h3><p>Built a multi-page site for an apparel manufacturer — product ranges, services and contact.</p></div>
+          <span class="tl-year">2025</span>
+          <div><h3>Business systems</h3><p>Built operations software for Mochiato café and a workforce and payroll system for Luxo Construction.</p></div>
         </li>
         <li class="reveal">
-          <span class="tl-year">Earlier</span>
-          <div><h3>Where it started</h3><p>Picked up HTML and CSS, got hooked, and never stopped building.</p></div>
+          <span class="tl-year">2024</span>
+          <div><h3>Going full-stack with ChemStudio</h3><p>Started a learning platform for A/L Chemistry that grew into a web app, a mobile app, an admin manager and an API.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-year">2021</span>
+          <div><h3>Where it started</h3><p>Built my first client website, for Twin Clothing, and got hooked on making things for the web.</p></div>
         </li>
       </ol>
     </section>

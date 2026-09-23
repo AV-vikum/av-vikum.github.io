@@ -75,7 +75,7 @@
   document.getElementById('year').textContent = new Date().getFullYear();
 
   /* ---------- Rotating role ---------- */
-  const roles = ['web developer', 'UI designer', 'creative coder', 'problem solver'];
+  const roles = ['full-stack developer', 'Flutter developer', 'UI designer', 'problem solver'];
   const roleEl = document.querySelector('.rotator-word');
   let roleIdx = 0;
   if (!reduceMotion) {
@@ -90,6 +90,16 @@
       }, 450);
     }, 2600);
   }
+
+  /* ---------- Project accordion ---------- */
+  document.querySelectorAll('.project-link').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.project');
+      const open = !item.classList.contains('is-open');
+      item.classList.toggle('is-open', open);
+      btn.setAttribute('aria-expanded', open);
+    });
+  });
 
   /* ---------- Scroll reveal ---------- */
   const revealObserver = new IntersectionObserver(entries => {
@@ -153,8 +163,9 @@
       previewInner.style.backgroundColor = p.dataset.color;
       previewInner.style.backgroundImage = img ? `url("${img}")` : '';
       previewInner.textContent = img ? '' : p.querySelector('.project-title').textContent;
-      preview.classList.add('is-visible');
+      if (!p.classList.contains('is-open')) preview.classList.add('is-visible');
     });
+    p.addEventListener('click', () => preview.classList.remove('is-visible'));
     p.addEventListener('mouseleave', () => preview.classList.remove('is-visible'));
   });
 
