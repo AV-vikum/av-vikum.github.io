@@ -1,15 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKila Dev</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akila Vikum Wickramasinghe</title>
+  <meta name="description" content="Portfolio of Akila Vikum Wickramasinghe — web developer and designer from Sri Lanka, building fast, thoughtful digital experiences.">
+  <meta name="theme-color" content="#f2eee6">
+  <meta property="og:title" content="Akila Vikum Wickramasinghe — Portfolio">
+  <meta property="og:description" content="Web developer and designer from Sri Lanka.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://av-vikum.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23111'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-style='italic' font-size='34' fill='%23ff4d1a'%3Eav%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
 </head>
 <body>
-    <h1>sites</h1>
-    <ul>
-        <li><a href="twinclothing">twin clothin</a></li>
-    </ul>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-label"></span></div>
+
+  <!-- Intro loader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <span class="loader-word">Akila</span>
+      <span class="loader-word"><em>Vikum</em></span>
+      <span class="loader-count">0</span>
+    </div>
+  </div>
+
+  <header class="nav">
+    <a href="#top" class="nav-logo" aria-label="Home">
+      <span class="logo-mark">av</span>
+      <span class="logo-text">Akila Vikum</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-cursor="Read">About</a>
+      <a href="#work" data-cursor="View">Work</a>
+      <a href="#services">Services</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact" data-cursor="Say hi">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="theme-icon"></span>
+      </button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a href="#journey">Journey</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-meta">
+        <span class="status"><i class="dot"></i> Available for new projects</span>
+        <span class="clock">Sri Lanka · <span id="local-time">--:--</span></span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line"><span class="word">Akila</span></span>
+        <span class="line"><span class="word serif">Vikum</span> <span class="word outline">Wickrama-</span></span>
+        <span class="line"><span class="word">singhe</span><span class="hero-star" aria-hidden="true">✺</span></span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-lead reveal">
+          A <span class="rotator" aria-live="polite"><span class="rotator-word">web developer</span></span>
+          crafting bold, fast and thoughtful digital experiences — from pixel to production.
+        </p>
+        <a href="#work" class="round-cta reveal" data-cursor="Scroll">
+          <svg viewBox="0 0 200 200" class="round-text" aria-hidden="true">
+            <defs><path id="circle" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+            <text><textPath href="#circle">SEE SELECTED WORK · SEE SELECTED WORK · </textPath></text>
+          </svg>
+          <span class="round-arrow">↓</span>
+        </a>
+      </div>
+
+      <div class="blob blob-1" aria-hidden="true"></div>
+      <div class="blob blob-2" aria-hidden="true"></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>HTML</span><i>✦</i><span>CSS / SCSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>React</span><i>✦</i><span>UI Design</span><i>✦</i><span>Responsive</span><i>✦</i><span>Git</span><i>✦</i><span>Performance</span><i>✦</i>
+        <span>HTML</span><i>✦</i><span>CSS / SCSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>React</span><i>✦</i><span>UI Design</span><i>✦</i><span>Responsive</span><i>✦</i><span>Git</span><i>✦</i><span>Performance</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-label reveal"><span>01</span> About</div>
+      <div class="about-grid">
+        <div class="about-portrait reveal">
+          <!-- Replace with your photo: <img src="assets/img/akila.jpg" alt="Akila Vikum Wickramasinghe"> -->
+          <div class="portrait-placeholder">
+            <span class="portrait-initials">AV</span>
+            <span class="portrait-tag">Based in Sri Lanka</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <p class="big-text reveal">
+            I'm Akila — a developer who cares about <em>how things feel</em>, not just how they work.
+            I turn ideas into clean, responsive websites that people actually enjoy using.
+          </p>
+          <p class="reveal muted">
+            I work across the whole journey: understanding the brand, designing the interface, and
+            building it with solid, maintainable front-end code. Small businesses, startups and
+            personal brands — I like helping them look sharp online.
+          </p>
+          <div class="stats">
+            <!-- Update these numbers to match your experience -->
+            <div class="stat reveal"><span class="stat-num" data-count="5">5</span><span class="stat-plus">+</span><p>Years building for the web</p></div>
+            <div class="stat reveal"><span class="stat-num" data-count="20">20</span><span class="stat-plus">+</span><p>Projects shipped</p></div>
+            <div class="stat reveal"><span class="stat-num" data-count="100">100</span><span class="stat-plus">%</span><p>Responsive, every time</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section work" id="work">
+      <div class="section-head">
+        <div class="section-label reveal"><span>02</span> Selected work</div>
+        <h2 class="section-title reveal">Things I've <em>made</em></h2>
+      </div>
+
+      <!-- Projects list: edit titles, tags, years, links and colours here -->
+      <ul class="projects">
+        <li class="project reveal" data-color="#ff4d1a" data-img="" data-cursor="Open">
+          <a href="#" class="project-link">
+            <span class="project-index">01</span>
+            <span class="project-title">Twin Clothing</span>
+            <span class="project-tags">Apparel manufacturer · Website</span>
+            <span class="project-year">2022</span>
+            <span class="project-arrow">↗</span>
+          </a>
+        </li>
+        <li class="project reveal" data-color="#3a5bff" data-img="" data-cursor="Open">
+          <a href="#" class="project-link">
+            <span class="project-index">02</span>
+            <span class="project-title">Project Two</span>
+            <span class="project-tags">Web app · UI/UX</span>
+            <span class="project-year">2024</span>
+            <span class="project-arrow">↗</span>
+          </a>
+        </li>
+        <li class="project reveal" data-color="#1fb57a" data-img="" data-cursor="Open">
+          <a href="#" class="project-link">
+            <span class="project-index">03</span>
+            <span class="project-title">Project Three</span>
+            <span class="project-tags">E-commerce · Front-end</span>
+            <span class="project-year">2025</span>
+            <span class="project-arrow">↗</span>
+          </a>
+        </li>
+        <li class="project reveal" data-color="#c24bff" data-img="" data-cursor="Open">
+          <a href="#" class="project-link">
+            <span class="project-index">04</span>
+            <span class="project-title">Project Four</span>
+            <span class="project-tags">Branding · Landing page</span>
+            <span class="project-year">2026</span>
+            <span class="project-arrow">↗</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="project-preview" aria-hidden="true"><div class="project-preview-inner"></div></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+      <div class="section-head">
+        <div class="section-label reveal"><span>03</span> Services</div>
+        <h2 class="section-title reveal">How I can <em>help</em></h2>
+      </div>
+      <div class="cards">
+        <article class="card reveal" data-tilt>
+          <span class="card-num">/01</span>
+          <div class="card-icon">◐</div>
+          <h3>Web Design</h3>
+          <p>Interfaces with personality — layouts, typography and colour that make your brand memorable.</p>
+          <ul><li>UI / UX</li><li>Wireframes</li><li>Design systems</li></ul>
+        </article>
+        <article class="card reveal" data-tilt>
+          <span class="card-num">/02</span>
+          <div class="card-icon">⌘</div>
+          <h3>Development</h3>
+          <p>Fast, accessible and responsive front-ends, hand-built with modern HTML, CSS and JavaScript.</p>
+          <ul><li>HTML / CSS / JS</li><li>React</li><li>Animations</li></ul>
+        </article>
+        <article class="card reveal" data-tilt>
+          <span class="card-num">/03</span>
+          <div class="card-icon">✦</div>
+          <h3>Launch &amp; Care</h3>
+          <p>From domain and hosting to performance tuning and SEO basics — I help you go live and stay sharp.</p>
+          <ul><li>Hosting</li><li>SEO</li><li>Maintenance</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="section journey" id="journey">
+      <div class="section-head">
+        <div class="section-label reveal"><span>04</span> Journey</div>
+        <h2 class="section-title reveal">The road <em>so far</em></h2>
+      </div>
+      <!-- Update with your real roles and dates -->
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="tl-year">Now</span>
+          <div><h3>Freelance Web Developer</h3><p>Designing and building websites for brands and small businesses.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-year">2022</span>
+          <div><h3>Twin Clothing website</h3><p>Built a multi-page site for an apparel manufacturer — product ranges, services and contact.</p></div>
+        </li>
+        <li class="reveal">
+          <span class="tl-year">Earlier</span>
+          <div><h3>Where it started</h3><p>Picked up HTML and CSS, got hooked, and never stopped building.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <p class="section-label reveal"><span>05</span> Contact</p>
+      <h2 class="contact-title reveal">
+        Let's build<br><em>something</em> great.
+      </h2>
+      <!-- Replace with your email address -->
+      <a class="contact-mail reveal" href="mailto:hello@example.com" data-cursor="Write">hello@example.com</a>
+      <div class="socials reveal">
+        <a href="https://github.com/AV-vikum" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="#" target="_blank" rel="noopener">Instagram ↗</a>
+        <a href="#" target="_blank" rel="noopener">Behance ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Akila Vikum Wickramasinghe</span>
+    <span>Designed &amp; built with care in Sri Lanka</span>
+    <a href="#top" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
